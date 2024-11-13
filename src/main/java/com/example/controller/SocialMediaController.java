@@ -26,6 +26,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 public class SocialMediaController {
     @Autowired
     MessageService messageService;
+    
     @Autowired
     AccountService accountService;
 

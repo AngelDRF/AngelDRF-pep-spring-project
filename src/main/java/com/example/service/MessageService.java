@@ -12,6 +12,7 @@ import org.springframework.stereotype.Service;
 public class MessageService {
     @Autowired
     AccountRepository accountRepository;
+    
     @Autowired
     MessageRepository messageRepository;
 
